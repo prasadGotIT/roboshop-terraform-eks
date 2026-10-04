@@ -20,7 +20,7 @@ variable "sg_names" {
         "bastion",  
         "ingress_alb",
         #"backend_alb",
-        "openvpn",
+        "open_vpn",
         "eks_control_plane",
         "eks_node"
         
