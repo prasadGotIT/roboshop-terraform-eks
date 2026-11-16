@@ -45,7 +45,7 @@ module "eks" {
       # cluster nodes autoscaling
       min_size     = 2
       max_size     = 10
-      desired_size = 2
+      desired_size = 3
        
        
       labels = {
@@ -66,7 +66,7 @@ module "eks" {
       # cluster nodes autoscaling
       min_size     = 2
       max_size     = 10
-      desired_size = 2
+      desired_size = 3
 
       # taints = {
       #   upgrade ={
